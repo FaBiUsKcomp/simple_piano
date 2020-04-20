@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="piano.css">
+
+    <title>Piano</title>
+</head>
+<body>
+
+    <!--Corpo Principal-->
+
+    <div class="container">
+
+        <!--Alto falantes-->
+
+        <img src="alto.png" alt="Alto Falante E" srcset="" id="AF-E">
+        <img src="alto.png" alt="Alto Falante D" srcset="" id="AF-D">
+
+        <!--Musicas-->
+        <div class="musicas">
+
+            <button id="brilha">Estrelinha</button>
+            <button class="breve">Em Breve...</button>
+            <button class="breve">Em Breve...</button>
+            <button class="breve">Em Breve...</button>
+
+        </div>
+
+        
+
+        <div class="box">
+
+            <!--Representa cada tecla-->
+
+            <div data-note="C" class="note notaUnica" class="notaUnica"></div>
+            <div data-note="Db" class="notaMid notaUnica"></div>
+            <div data-note="D" class="note notaUnica"></div>
+            <div data-note="Eb" class="notaMid notaUnica"></div>
+            <div data-note="E" class="note notaUnica"></div> 
+            <div data-note="F" class="note notaUnica"></div>
+            <div data-note="Gb" class="notaMid notaUnica"></div>
+            <div data-note="G" class="note notaUnica"></div>
+            <div data-note="Ab" class="notaMid notaUnica"></div>
+            <div data-note="A" class="note notaUnica"></div>
+            <div data-note="Bb" class="notaMid notaUnica"></div>
+            <div data-note="B" class="note notaUnica"></div>
+
+        </div>
+
+    </div>
+
+    <!--Notas do Piano em forma de Audio-->
+
+    <audio id="C" src="notas/C.mp3"></audio>
+    <audio id="Db" src="notas/Db.mp3"></audio>
+    <audio id="D" src="notas/D.mp3"></audio>
+    <audio id="Eb" src="notas/Eb.mp3"></audio>
+    <audio id="E" src="notas/E.mp3"></audio>
+    <audio id="F" src="notas/F.mp3"></audio>
+    <audio id="Gb" src="notas/Gb.mp3"></audio>
+    <audio id="G" src="notas/G.mp3"></audio>
+    <audio id="Ab" src="notas/Ab.mp3"></audio>
+    <audio id="A" src="notas/A.mp3"></audio>
+    <audio id="Bb" src="notas/Bb.mp3"></audio>
+    <audio id="B" src="notas/B.mp3"></audio>
+
+    <script src="piano.js"></script>
+    <!--<script src="brilhaBrilhaEstrelinha.js"></script>-->
+    
+</body>
+</html>
